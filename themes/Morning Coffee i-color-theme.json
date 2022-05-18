@@ -3,7 +3,9 @@
     "colors":{
         "editor.background": "#4e2c17",
         "editor.foreground": "#e3ddce",
-        "sideBar.background": "#ff0000"
+        "sideBar.background": "#ff0000",
+        "sideBar.foreground": "#e3ddce",
+    
     },
     "tokenColors":[
         
