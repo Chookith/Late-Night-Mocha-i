@@ -31,9 +31,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Morning Coffee",
+        "label": "Late Night Coffee i",
         "uiTheme": "vs-dark",
-        "path": "./themes/Morning-Coffee-i-color-theme.json"
+        "path": "./themes/Late-Night-Coffee-i-color-theme.json"
+      },
+      {
+        "label": "Morning Coffee i",
+        "uiTheme": "vs-dark",
+        "path": "./themes/id.tmTheme."
       }
     ]
   }
