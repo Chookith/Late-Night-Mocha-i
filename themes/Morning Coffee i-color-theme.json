@@ -6,6 +6,7 @@
         "editor.foreground": "#e3ddce",
         "sideBar.background": "#ff0000",
         "sideBar.foreground": "#e3ddce",
+        "button.background": "#ff0000"
     
     },
     "tokenColors":[
