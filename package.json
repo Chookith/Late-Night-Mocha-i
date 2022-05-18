@@ -1,0 +1,46 @@
+{
+  "name": "coffee-theme",
+  "displayName": "Coffee Theme",
+  "description": "Themes for the early morning and late night coders",
+  "publisher": "Chookith",
+  "author": {
+    "name":"Chookith"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chookith/Vsc-themes.git"
+  },
+  "homepage": "https://github.com/Chookith/Vsc-themes#readme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chookith/Vsc-themes/issues"
+  },
+  "galleryBanner": {
+    "color": "#9b6f4f",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Theme",
+    "coffee"
+  ],
+
+  "contributes": {
+    "themes": [
+      {
+        "label": "Late Night Coffee i",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Late-Night-Coffee-i-color-theme.json"
+      },
+      {
+        "label": "Morning Coffee i",
+        "uiTheme": "vs-dark",
+        "path": "./themes/id.tmTheme."
+      }
+    ]
+  }
+
+}
