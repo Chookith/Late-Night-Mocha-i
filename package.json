@@ -33,7 +33,7 @@
       {
         "label": "Morning Coffee",
         "uiTheme": "vs-dark",
-        "path": "./themes/Morning-Coffee-i.json"
+        "path": "./themes/Morning-Coffee-i-color-theme.json"
       }
     ]
   }

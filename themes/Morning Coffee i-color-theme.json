@@ -1,5 +1,6 @@
 {
     "name": "Morning Coffee i",
+    "type":"dark",
     "colors":{
         "editor.background": "#4e2c17",
         "editor.foreground": "#e3ddce",
