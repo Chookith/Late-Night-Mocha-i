@@ -8,7 +8,7 @@ please bear with me
 ## I'm in light too
 theres another version of me for the "Morning Coffee i" addicts
     
-C:\Users\Charli\OneDrive\GitHub\Vsc-themes\late night mocha image.png
+![Mocha Code Example](https://github.com/Chookith/Vsc-themes/blob/main/late%20night%20mocha%20image.png)
 
 
 ## Installing 
