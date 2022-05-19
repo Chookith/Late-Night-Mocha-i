@@ -1,7 +1,7 @@
 {
-  "name": "coffee-theme",
-  "displayName": "Coffee Theme",
-  "description": "Themes for the early morning and late night coders",
+  "name": "coffee-theme-dark",
+  "displayName": "Late Night Mocha i",
+  "description": "Themes for the late night coders",
   "publisher": "Chookith",
   "author": {
     "name":"Chookith"
@@ -25,13 +25,16 @@
   },
   "keywords": [
     "Theme",
-    "coffee"
+    "coffee",
+    "cream",
+    "beige",
+    "brown"
   ],
 
   "contributes": {
     "themes": [
       {
-        "label": "Late Night Coffee i",
+        "label": "Late Night Mocha i",
         "uiTheme": "vs-dark",
         "path": "./themes/Late-Night-Coffee-i-color-theme.json"
       },

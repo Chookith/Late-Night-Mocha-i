@@ -262,14 +262,16 @@
             "name": "C# - class modifier (public, global, private",
             "scope": "storage.modifier.cs",
             "settings": {
-                "foreground": "#b29278"
+                "foreground": "#b29278",
+                "fontStyle": "italic bold"
             }
         },
         {
             "name": "C# - var type",
             "scope": "keyword.type.cs",
             "settings": {
-                "foreground": "#d29b6a"
+                "foreground": "#d29b6a",
+                "fontStyle": "italic"
             }
         },
         {
@@ -298,6 +300,14 @@
             "scope": ["punctuation.definition.typeparameters.begin.cs", "punctuation.definition.typeparameters.end.cs"],
             "settings": {
                 "foreground": "#a7957d"
+            }
+        },
+        {
+            "name": "C# - unity var type (input field)",
+            "scope": "entity.name.type.cs",
+            "settings": {
+                "foreground": "#a67f62",
+                "fontStyle": "italic bold"
             }
         },
         {
