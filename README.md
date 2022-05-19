@@ -8,8 +8,12 @@ please bear with me
 ## I'm in light too
 theres another version of me for the "Morning Coffee i" addicts
     
+## i look like this
 ![Mocha Code Example](https://github.com/Chookith/Vsc-themes/blob/main/late%20night%20mocha%20image.png)
 
+im still working on it
+
+if you want me to make another language give me yell
 
 ## Installing 
 
@@ -20,6 +24,8 @@ theres another version of me for the "Morning Coffee i" addicts
 1.  Manage Cog (little cog thingy on the bottom) > Select Colour Theme > Late Night Coffee
 
 ### give us a yell if you have any issues with it
+
+feel free to give recommendations
 
 >https://github.com/Chookith/Vsc-themes.git
 
