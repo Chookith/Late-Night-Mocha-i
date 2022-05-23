@@ -175,8 +175,16 @@
             }
         },
         {
-            "name": "Json - property name",
+            "name": "Json with comments- property name",
             "scope": "support.type.property-name.json.comments",
+            "settings": {
+                "foreground": "#b29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Json without comments-- ",
+            "scope": "support.type.property-name.json",
             "settings": {
                 "foreground": "#b29278",
                 "fontStyle": "italic bold"
