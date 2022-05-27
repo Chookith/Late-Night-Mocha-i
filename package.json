@@ -4,9 +4,9 @@
   "description": "Themes for the late night coders",
   "publisher": "Chookith",
   "author": {
-    "name":"Chookith"
+    "name": "Chookith"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -41,5 +41,4 @@
       }
     ]
   }
-
 }
