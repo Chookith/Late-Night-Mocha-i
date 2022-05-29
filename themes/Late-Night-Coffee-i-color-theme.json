@@ -191,6 +191,14 @@
             }
         },
         {
+            "name": "Json with comments - '//' comments",
+            "scope": "comment.line.double-slash.js",
+            "settings": {
+                "foreground": "#6f5541",
+                "fontStyle": "italic"
+            }
+        },
+        {
             "name": "pyhton decorator (@commandlistnet)",
             "scope": "entity.name.function.decorator.python",
             "settings": {
@@ -297,6 +305,7 @@
                 "foreground": "#d2a44b"
             }
         },
+        //comments
         {
             "name": "C# - semicolons",
             "scope": "punctuation.terminator.statement.cs",
@@ -305,6 +314,7 @@
             }
         },
         {
+            "name": "C# - parameters?? '<>' im guessing ",
             "scope": ["punctuation.definition.typeparameters.begin.cs", "punctuation.definition.typeparameters.end.cs"],
             "settings": {
                 "foreground": "#a7957d"
@@ -324,6 +334,13 @@
             "settings": {
                 "foreground": "#6f5541",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown (README) - Headings",
+            "scope": ["punctuation.definition.heading.markdown", "entity.name.section.markdown"],
+            "settings": {
+                "foreground": "#FF0000"
             }
         }
         
