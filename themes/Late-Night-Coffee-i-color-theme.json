@@ -456,7 +456,7 @@
         },
         {
             "name": "Markdown (README) - Headings #",
-            "scope": ["heading.1.markdown"],
+            "scope": "heading.1.markdown",
             "settings": {
                 "foreground": "#e5ba85",
                 "fontStyle": "italic bold"
