@@ -143,6 +143,67 @@
             }
         },
         {
+            "name": "JS - semicolons",
+            "scope": "#b49162",
+            "settings": {
+                "foreground": "#d1ba9c"
+            }
+        },
+        {
+            "name": "JS - variable type (let , const, var)",
+            "scope": "storage.type.js",
+            "settings": {
+                "foreground": "#B29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "JS - numbers",
+            "scope": "constant.numeric.decimal.js",
+            "settings": {
+                "foreground": "#b18d6a"
+            }
+        },
+        {
+            "name": "JS - function parameters",
+            "scope": "variable.parameter.js",
+            "settings": {
+                "foreground": "#b18d6a",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "JS - flow control (return, continue)",
+            "scope": ["keyword.control.flow.js", "variable.language.this.js"],
+            "settings": {
+                "foreground": "#ebdfc7",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "JS - umm not actually sure (len)",
+            "scope": ["support.variable.property.js", "entity.name.function.js"],
+            "settings": {
+                "foreground": "#D1BA9C",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JS - single quote string",
+            "scope": "string.quoted.single.js",
+            "settings": {
+                "foreground": "#f7e4c0"
+            }
+        },
+        {
+            "name": "JS - object keys ",
+            "scope": "meta.object-literal.key.js",
+            "settings": {
+                "foreground": "#B29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
             "name": "js - functions",
             "scope": "storage.type.function.js",
             "settings": {
@@ -160,10 +221,31 @@
         },
         {
             "name": "js - if, else, or...",
-            "scope": "keyword.control.conditional.js",
+            "scope": ["keyword.control.conditional.js", "keyword.control.loop.js"],
             "settings": {
                 "foreground": "#ba9d86",
                 "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "JS - Boolean false",
+            "scope": "constant.language.boolean.false.js",
+            "settings": {
+                "foreground": "#858c98"
+            }
+        },
+        {
+            "name": "JS - Boolean True",
+            "scope": "constant.language.boolean.true.js",
+            "settings": {
+                "foreground": "#a6a094"
+            }
+        },
+        {
+            "name": "JS - Null",
+            "scope": "constant.language.null.js",
+            "settings": {
+                "foreground": "#b49162"
             }
         },
         {
@@ -276,7 +358,7 @@
         },
         {
             "name": "C# - class modifier (public, global, private",
-            "scope": "storage.modifier.cs",
+            "scope": ["storage.modifier.cs", "keyword.other.class.cs", "keyword.other.namespace.cs", "keyword.other.interface.cs"],
             "settings": {
                 "foreground": "#b29278",
                 "fontStyle": "italic bold"
@@ -292,9 +374,17 @@
         },
         {
             "name": "C# - conditonal statements",
-            "scope": ["keyword.control.conditional.if.cs", "keyword.other.get.cs", "keyword.control.flow.return.cs", "keyword.control.conditional.else.cs", "keyword.other.await.cs"],
+            "scope": ["keyword.control.conditional.if.cs", "keyword.other.get.cs", "keyword.control.conditional.else.cs", "keyword.other.await.cs"],
             "settings": {
                 "foreground": "#94654c",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "C# - flow control (break, continue...)",
+            "scope": ["keyword.control.flow.break.cs", "keyword.control.flow.continue.cs", "keyword.control.flow.return.cs"],
+            "settings": {
+                "foreground": "#cfb391",
                 "fontStyle": "italic bold"
             }
         },
@@ -329,6 +419,34 @@
             }
         },
         {
+            "name": "C# - numbers",
+            "scope": "constant.numeric.decimal.cs",
+            "settings": {
+                "foreground": "#b18d6a"
+            }
+        },
+        {
+            "name": "C# - string Quotes",
+            "scope": "string.quoted.double.cs",
+            "settings": {
+                "foreground": "#c3a075"
+            }
+        },
+        {
+            "name": "C# - boolean false",
+            "scope": "constant.language.boolean.false.cs",
+            "settings": {
+                "foreground": "#858c98"
+            }
+        },
+        {
+            "name": "C# - boolean true",
+            "scope": "constant.language.boolean.true.cs",
+            "settings": {
+                "foreground": "#a6a094"
+            }
+        },
+        {
             "name": "C# - comments",
             "scope": "comment.line.double-slash.cs",
             "settings": {
@@ -337,18 +455,42 @@
             }
         },
         {
-            "name": "Markdown (README) - Headings",
-            "scope": ["punctuation.definition.heading.markdown", "entity.name.section.markdown"],
+            "name": "Markdown (README) - Headings #",
+            "scope": ["heading.1.markdown"],
             "settings": {
-                "foreground": "#FF0000"
+                "foreground": "#e5ba85",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Markdown (README) - Headings ##",
+            "scope": "heading.2.markdown",
+            "settings": {
+                "foreground": "#b29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Markdown (README) - Headings ###",
+            "scope": "heading.3.markdown",
+            "settings": {
+                "foreground": "#a67f62",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Markdown (README) - links",
+            "scope": ["markup.underline.link.image.markdown", "markup.quote.markdown"],
+            "settings": {
+                "foreground": "#E0BF81"
+            }
+        },
+        {
+            "name": "Markdown (README) - list",
+            "scope": ["markup.list.numbered.markdown", "punctuation.definition.list.begin.markdown"],
+            "settings": {
+                "foreground": "#E0D3C9"
             }
         }
-        
-
     ]
-
-
-    
-
-    
 }

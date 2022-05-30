@@ -9,7 +9,7 @@ please bear with me
 theres another version of me for the "Morning Coffee i" addicts
     
 ## i look like this
-![Mocha Code Example](https://github.com/Chookith/Late-Night-Mocha-i/blob/main/images/late%20night%20mocha%20image.png)
+![Mocha Code Example](https://raw.githubusercontent.com/Chookith/Late-Night-Mocha-i/main/images/late%20night%20mocha%20image.png)
 
 im still working on it
 
