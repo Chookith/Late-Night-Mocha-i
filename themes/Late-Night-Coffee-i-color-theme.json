@@ -398,7 +398,7 @@
         },
         {
             "name": "C# - conditonal statements",
-            "scope": ["keyword.control.conditional.if.cs", "keyword.other.get.cs", "keyword.control.conditional.else.cs", "keyword.other.await.cs"],
+            "scope": ["keyword.control.conditional.if.cs", "keyword.other.get.cs", "keyword.control.conditional.else.cs", "keyword.other.await.cs", "keyword.control.loop.foreach.cs"],
             "settings": {
                 "foreground": "#94654c",
                 "fontStyle": "italic bold"
@@ -468,6 +468,13 @@
             "scope": "constant.language.boolean.true.cs",
             "settings": {
                 "foreground": "#a6a094"
+            }
+        },
+        {
+            "name": "C# - comparason things (==, !=)",
+            "scope": ["keyword.operator.comparison.cs", "keyword.operator.assignment.compound.cs", "keyword.operator.logical.cs"],
+            "settings": {
+                "foreground": "#ad8f6f"
             }
         },
         {
