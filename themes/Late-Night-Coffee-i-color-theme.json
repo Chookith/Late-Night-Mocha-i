@@ -184,7 +184,7 @@
             "name": "JS - umm not actually sure (len)",
             "scope": ["support.variable.property.js", "entity.name.function.js", "entity.name.type.class.js"],
             "settings": {
-                "foreground": "#D1BA9C",
+                "foreground": "#c3a075",
                 "fontStyle": "bold"
             }
         },
@@ -265,7 +265,7 @@
             }
         },
         {
-            "name": "JavaScript - typeof ",
+            "name": "JS - typeof ",
             "scope": "keyword.operator.expression.typeof.js",
             "settings": {
                 "foreground": "#B29278",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "name": "js - comment",
+            "name": "JS - comment",
             "scope": "comment.line.double-slash.js",
             "settings": {
                 "foreground": "#6f5541",
