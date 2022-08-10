@@ -273,8 +273,15 @@
             }
         },
         {
+            "scope": "variable.other.object.property.js",
+            "settings": {
+                "foreground": "#e2cdb1",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
             "name": "JS - comment",
-            "scope": "comment.line.double-slash.js",
+            "scope": ["comment.line.double-slash.js", "comment.block.documentation.js"],
             "settings": {
                 "foreground": "#6f5541",
                 "fontStyle": "italic"
