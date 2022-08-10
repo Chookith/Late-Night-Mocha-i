@@ -529,6 +529,29 @@
             "settings": {
                 "foreground": "#E0D3C9"
             }
+        },
+        {
+            "name": "OpenSCAD - functions",
+            "scope": "meta.function.scad",
+            "settings": {
+                "foreground": "#a6805f",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "OpenSCAD - internal functions(translate())",
+            "scope": "support.function.scad",
+            "settings": {
+                "foreground": "#cbb6a3",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "OpenSCAD - ",
+            "scope": "constant.numeric.scad",
+            "settings": {
+                "foreground": "#b18d6a"
+            }
         }
     ]
 }
