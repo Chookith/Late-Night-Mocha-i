@@ -1,12 +1,14 @@
 # Late Night Coffee i
 
 
-Howdy do 
+yo
 
 please bear with me 
 
-## I'm in light too
-theres another version of me for the "Morning Coffee i" addicts
+im still learning
+
+## I'm in light
+There's another version of me coming later for the "Morning Coffee i" addicts
     
 ## i look like this
 ![Mocha Code Example](https://raw.githubusercontent.com/Chookith/Late-Night-Mocha-i/main/images/late%20night%20mocha%20image.png)
