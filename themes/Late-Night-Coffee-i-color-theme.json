@@ -107,7 +107,7 @@
         "welcomePage.progress.foreground": "#e0d3c9",
         "welcomePage.tileBackground": "#4d3a2b",
         "welcomePage.tileHoverBackground": "#e0d3c9",
-        "welcomePage.tileShadow": "#3a271c",
+        //"welcomePage.tileShadow": "#3a271c",
         "breadcrumb.foreground": "#e0d3c9"
     },
     "tokenColors":[
