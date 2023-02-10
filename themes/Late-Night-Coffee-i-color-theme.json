@@ -129,6 +129,27 @@
             }
         },
         {
+            "name": "css - values",
+            "scope": "meta.property-value.css",
+            "settings": {
+                "foreground": "#B29278"
+            }
+        },
+        {
+            "name": "css - numbers ",
+            "scope": "constant.numeric.css",
+            "settings": {
+                "foreground": "#f7e4c0"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name.pseudo-element.css",
+            "settings": {
+                "foreground": "#c6ac9c",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
             "name": "css- commments",
             "scope": "comment.block.css",
             "settings": {
