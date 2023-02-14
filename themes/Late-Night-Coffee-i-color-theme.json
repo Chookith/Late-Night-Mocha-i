@@ -394,6 +394,20 @@
             }
         },
         {
+            "scope": "string.quoted.double.html, string.quoted.single.html ",
+            "settings": {
+                "foreground": "#E0D3C9",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "text.html.derivative",
+            "settings": {
+                "foreground": "#F7E4C0",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
             "name": "html - comments",
             "scope": "comment.block.html",
             "settings": {
