@@ -153,7 +153,7 @@
             "name": "css- commments",
             "scope": "comment.block.css",
             "settings": {
-                "foreground": "#6f5541"
+                "foreground": "#99755acb"
             }
         },
         {
@@ -304,7 +304,7 @@
             "name": "JS - comment",
             "scope": ["comment.line.double-slash.js", "comment.block.documentation.js"],
             "settings": {
-                "foreground": "#6f5541",
+                "foreground": "#99755acb",
                 "fontStyle": "italic"
             }
         },
@@ -328,7 +328,7 @@
             "name": "Json with comments - '//' comments",
             "scope": "comment.line.double-slash.js",
             "settings": {
-                "foreground": "#6f5541",
+                "foreground": "#99755acb",
                 "fontStyle": "italic"
             }
         },
@@ -374,7 +374,7 @@
             "name": "python - comment",
             "scope": "comment.line.number-sign.python",
             "settings": {
-                "foreground": "#6f5541",
+                "foreground": "#99755acb",
                 "fontStyle": "italic"
             }
         },
@@ -411,7 +411,7 @@
             "name": "html - comments",
             "scope": "comment.block.html",
             "settings": {
-                "foreground": "#6f5541",
+                "foreground": "#99755acb",
                 "fontStyle": "italic"
             }
         },
@@ -523,7 +523,7 @@
             "name": "C# - comments",
             "scope": "comment.line.double-slash.cs",
             "settings": {
-                "foreground": "#6f5541",
+                "foreground": "#99755acb",
                 "fontStyle": "italic"
             }
         },
