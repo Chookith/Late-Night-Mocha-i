@@ -394,16 +394,26 @@
             }
         },
         {
-            "scope": "string.quoted.double.html, string.quoted.single.html ",
+            "name": "html - most dbl quoted string scopes",
+            "scope": "meta.attribute.lang.html, meta.attribute.charset.html, meta.attribute.content.html, meta.attribute.http-equiv.html, meta.attribute.name.html, meta.attribute.content.html, meta.attribute.href.html, meta.attribute.rel.html, meta.attribute.type.html, meta.attribute.wrap.html, meta.attribute.cols.html ,meta.attribute.rows.html, meta.attribute.id.html,meta.attribute.placeholder.html, string.quoted.single.html ",
             "settings": {
                 "foreground": "#E0D3C9",
                 "fontStyle": ""
             }
         },
         {
+            "name": "html - <h1>This text</h1>",
             "scope": "text.html.derivative",
             "settings": {
                 "foreground": "#F7E4C0",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "html - class attribute (Tailwind help)",
+            "scope": "meta.attribute.class.html",
+            "settings": {
+                "foreground": "#c7a28c",
                 "fontStyle": "italic bold"
             }
         },
