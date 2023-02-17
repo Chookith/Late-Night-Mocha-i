@@ -592,8 +592,8 @@
             }
         },
         {
-            "name": "OpenSCAD - ",
-            "scope": "constant.numeric.scad",
+            "name": "OpenSCAD - numbers",
+            "scope": "constant.numeric.scad, constant.numeric.float.scad",
             "settings": {
                 "foreground": "#b18d6a"
             }
