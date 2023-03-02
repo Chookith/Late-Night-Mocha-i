@@ -341,18 +341,25 @@
             }
         },
         {
-            "name": "python - def",
-            "scope": ["storage.type.function.python", "storage.type.function.async.python", "keyword.control.flow.python"],
+            "name": "python - string(single)",
+            "scope": "string.quoted.single.python",
+            "settings": {
+                "foreground": "#c6ac9c"
+            }
+        },
+        {
+            "name": "python - def, if-else, ==",
+            "scope": ["storage.type.function.python", "storage.type.function.async.python", "keyword.control.flow.python", "keyword.operator.logical.python","keyword.operator.comparison.python"],
             "settings": {
                 "foreground": "#c09e81",
                 "fontStyle": "italic bold"
             }
         },
         {
-            "name": "python - string",
-            "scope": "string.quoted.single.python",
+            "scope": "meta.function-call.arguments.python",
             "settings": {
-                "foreground": "#c6ac9c"
+                "foreground": "#eed8bc",
+                "fontStyle": "italic bold"
             }
         },
         {
