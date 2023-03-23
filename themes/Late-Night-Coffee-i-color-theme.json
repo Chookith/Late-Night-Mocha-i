@@ -24,6 +24,10 @@
         "editorBracketHighlight.foreground5": "#d2a44b",
         "editorBracketHighlight.foreground6": "#d2a44b",
         "editorBracketHighlight.unexpectedBracket.foreground": "#748ba8",
+        "editorWidget.background": "#61462b",
+        "editorSuggestWidget.foreground": "#e0d3c9",
+        "editorSuggestWidget.highlightForeground": "#e5ba85",
+        "editorHoverWidget.highlightForeground": "#DCBE94",
         "searchEditor.findMatchBackground": "#d1b28a98",
         "sideBar.background": "#3a271c",
         "sideBar.foreground": "#e0d3c9",
@@ -108,6 +112,10 @@
         "welcomePage.tileBackground": "#4d3a2b",
         "welcomePage.tileHoverBackground": "#e0d3c9",
         //"welcomePage.tileShadow": "#3a271c",
+        "terminal.foreground": "#e0d3c9",
+        //"debugConsole.sourceForeground": "#E5BA85",
+        "terminal.ansiCyan": "#E5BA85",
+        "terminal.ansiBrightYellow": "#e7ca74",
         "breadcrumb.foreground": "#e0d3c9"
     },
     "tokenColors":[
