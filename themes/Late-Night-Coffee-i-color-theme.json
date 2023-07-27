@@ -364,6 +364,7 @@
             }
         },
         {
+            "name": "python  - fuction Argument sum(i)",
             "scope": "meta.function-call.arguments.python",
             "settings": {
                 "foreground": "#eed8bc",
@@ -435,6 +436,83 @@
         {
             "name": "html - comments",
             "scope": "comment.block.html",
+            "settings": {
+                "foreground": "#99755acb",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "C - dbl quote str",
+            "scope": "string.quoted.double.c",
+            "settings": {
+                "foreground": "#c09365",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "C - include",
+            "scope": "keyword.control.directive.include.c",
+            "settings": {
+                "foreground": "#e5ba85"
+            }
+        },
+        {
+            "name": "C - <whats being included>",
+            "scope": "string.quoted.other.lt-gt.include.c",
+            "settings": {
+                "foreground": "#ebc29c",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "C - var type int, double, float",
+            "scope": "storage.type.built-in.primitive.c",
+            "settings": {
+                "foreground": "#d29b6a",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "C - %d,%s",
+            "scope": "constant.other.placeholder.c",
+            "settings": {
+                "foreground": "#e6bd92",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "C - printf, scanf",
+            "scope": "entity.name.function.c",
+            "settings": {
+                "foreground": "#e5ba85",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "meta.function.definition.parameters.c",
+            "settings": {
+                "foreground": "#eed8bc"
+            }
+        },
+        {
+            "scope": ["keyword.control.c", "keyword.operator.assignment.compound.c", "keyword.operator.c", "punctuation.terminator.statement.c", "keyword.operator.comparison.c"],
+            "settings": {
+                "foreground": "#c09e81",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "C - function name",
+            "scope": "meta.function.c",
+            "settings": {
+                "foreground": "#d2a44b",
+                "fontStyle": "bold"
+
+            }
+        },
+        {
+            "name": "C - comment",
+            "scope": ["comment.line.double-slash.c", "comment.block.c"],
             "settings": {
                 "foreground": "#99755acb",
                 "fontStyle": "italic"
