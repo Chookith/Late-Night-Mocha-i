@@ -302,6 +302,7 @@
             }
         },
         {
+            "name": "",
             "scope": "variable.other.object.property.js",
             "settings": {
                 "foreground": "#e2cdb1",
@@ -317,11 +318,64 @@
             }
         },
         {
+            "name": "TS - import",
+            "scope": ["keyword.control.import.ts", "keyword.control.from.ts"],
+            "settings": {
+                "foreground": "#e6d5a2"
+            }
+        },
+        {
+            "name": "TS - key -- styleUrls: ",
+            "scope": "meta.object-literal.key.ts",
+            "settings": {
+                "foreground": "#b29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TS - export",
+            "scope": "keyword.control.export.ts",
+            "settings": {
+                "foreground": "#ddb16e",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TS - class",
+            "scope": ["storage.type.class.ts", "storage.modifier.ts"],
+            "settings": {
+                "foreground": "#b48c69",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TS - this keyword",
+            "scope": ["variable.language.this.ts", "entity.name.function.ts"],
+            "settings": {
+                "foreground": "#e7c79e",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TS - single quote",
+            "scope": "string.quoted.single.ts",
+            "settings": {
+                "foreground": "#c6ac9c",
+                "fontStyle": "italic"
+            }
+        },
+        {
             "name": "Json with comments- property name",
             "scope": "support.type.property-name.json.comments",
             "settings": {
                 "foreground": "#b29278",
                 "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "storage.type.ts",
+            "settings": {
+                "foreground": "#d29b6a"
             }
         },
         {
