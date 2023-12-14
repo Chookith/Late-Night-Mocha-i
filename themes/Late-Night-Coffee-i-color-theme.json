@@ -365,6 +365,164 @@
             }
         },
         {
+            "name": "TS - export class keys - things: definition",
+            "scope": "variable.object.property.ts",
+            "settings": {
+                "foreground": "#B29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "meta.attribute.for.html",
+            "settings": {
+                "foreground": "#C09E81",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            // i actually cannot remember what this is
+                //but i know its  important
+            // angualar why you hard :'(
+            "name": "TS - angular html template [this thingy]",
+            "scope": ["entity.other.ng-binding-name.formGroup.html"],
+            "settings": {
+                "foreground": "#f1b55b",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TS - defining symbols - : |",
+            "scope": ["keyword.operator.type.annotation.ts", "keyword.operator.type.ts"],
+            "settings": {
+                "foreground": "#E4A561",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "TS - new",
+            "scope": "keyword.operator.new.ts",
+            "settings": {
+                "foreground": "#DDB16E",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "TS - reverting due to TS export class keys",
+            "scope": ["keyword.operator.assignment.ts","meta.definition.property.ts", "keyword.operator.logical.ts"],
+            "settings": {
+                "foreground": "#e0d3c9",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": ["punctuation.definition.block.ts", "punctuation.definition.block.ts"],
+            "settings": {
+                "foreground": "#e5ba85",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "TS - comment",
+            "scope": ["punctuation.definition.comment.ts", "punctuation.definition.comment.ts"],
+            "settings": {
+                "foreground": "#99755acb",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TSX - export",
+            "scope": "keyword.control.export.tsx",
+            "settings": {
+                "foreground": "#ddb16e",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TSX - function",
+            "scope": "storage.type.function.tsx",
+            "settings": {
+                "foreground": "#D1BA9C",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TSX - function name",
+            "scope": "entity.name.function.tsx",
+            "settings": {
+                "foreground": "#C3A075",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "TSX - import, from",
+            "scope": ["keyword.control.import.tsx", "keyword.control.from.tsx"],
+            "settings": {
+                "foreground": "#E6D5A2"
+            }
+        },
+        {
+            "name": "TSX - keys - children:",
+            "scope": "variable.object.property.tsx",
+            "settings": {
+                "foreground": "#B29278",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TSX - : ;",
+            "scope": ["keyword.operator.type.annotation.tsx", "punctuation.terminator.statement.tsx"],
+            "settings": {
+                "foreground": "#E4A561"
+            }
+        },
+        {
+            "name": "TSX - type declaration",
+            "scope": "storage.type.tsx",
+            "settings": {
+                "foreground": "#D29B6A"
+            }
+        },
+        {
+            "name": "TSX - <>this text</>",
+            "scope": "meta.jsx.children.tsx",
+            "settings": {
+                "foreground": "#F7E4C0", 
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TSX - return",
+            "scope": "keyword.control.flow.tsx",
+            "settings": {
+                "foreground": "#EBDFC7",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TSX - if else for",
+            "scope": ["keyword.control.conditional.tsx", "keyword.control.loop.tsx"],
+            "settings": {
+                "foreground": "#BA9D86", 
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "TSX - single quote",
+            "scope": "string.quoted.single.tsx",
+            "settings": {
+                "foreground": "#C6AC9C", 
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TSX - html template",
+            "scope": ["entity.name.tag.tsx", "punctuation.definition.tag.begin.tsx", "punctuation.definition.tag.end.tsx"],
+            "settings": {
+                "foreground": "#E5BA85",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
             "name": "Json with comments- property name",
             "scope": "support.type.property-name.json.comments",
             "settings": {
