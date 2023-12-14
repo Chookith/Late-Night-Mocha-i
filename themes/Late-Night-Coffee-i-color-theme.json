@@ -334,7 +334,7 @@
         },
         {
             "name": "TS - export",
-            "scope": "keyword.control.export.ts",
+            "scope": ["keyword.control.export.ts", "new.expr.ts"],
             "settings": {
                 "foreground": "#ddb16e",
                 "fontStyle": "italic"
@@ -531,9 +531,35 @@
             }
         },
         {
+            "name": "TS - var types, constructor()",
             "scope": "storage.type.ts",
             "settings": {
-                "foreground": "#d29b6a"
+                "foreground": "#d29b6a",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "TS - {{   }}",
+            "scope": "punctuation.definition.block.ts",
+            "settings": {
+                "foreground": "#e5ba85",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "",
+            "scope": ["keyword.operator.logical.ts", "punctuation.accessor.ts"],
+            "settings": {
+                "foreground": "#b49083",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "TS - angular for loop in html",
+            "scope": "meta.attribute.for.html",
+            "settings": {
+                "foreground": "#d6aa69",
+                "fontStyle": "italic"
             }
         },
         {
