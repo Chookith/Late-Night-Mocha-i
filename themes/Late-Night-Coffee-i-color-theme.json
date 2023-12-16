@@ -674,7 +674,8 @@
     {
       "scope": [
         "comment.line.double-slash.tsx",
-        "punctuation.definition.comment.tsx"
+        "punctuation.definition.comment.tsx",
+        "comment.block.tsx"
       ],
       "settings": {
         "foreground": "#99755acb"
