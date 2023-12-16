@@ -440,6 +440,22 @@
       }
     },
     {
+      "name": "TS - function",
+      "scope": ["storage.type.function.ts", "storage.type.function.arrow.ts"],
+      "settings": {
+        "foreground": "#D1BA9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS - double quote",
+      "scope": "string.quoted.double.ts",
+      "settings": {
+        "foreground": "#C6AC9C",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
       "name": "TS - var types, constructor()",
       "scope": "storage.type.ts",
       "settings": {
@@ -453,6 +469,14 @@
       "settings": {
         "foreground": "#e5ba85",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "TS - async await return",
+      "scope": ["storage.modifier.async.ts", "keyword.control.flow.ts"],
+      "settings": {
+        "foreground": "#EBDFC7",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -532,6 +556,50 @@
       }
     },
     {
+      "name": "TSX - async fix",
+      "scope": "storage.modifier.async.tsx",
+      "settings": {
+        "foreground": "#EBDFC7",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "TSX - double quote",
+      "scope": "string.quoted.double.tsx",
+      "settings": {
+        "foreground": "#C6AC9C",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "TSX - accent quote - tempalte",
+      "scope": "string.template.tsx",
+      "settings": {
+        "foreground": "#C6AC9C"
+        //"fontStyle": "bold"
+      }
+    },
+    {
+      "name": "TSX - static brackets",
+      "scope": [
+        "punctuation.definition.template-expression.begin.tsx",
+        "punctuation.definition.template-expression.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#94654c",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "TSX - static in templates",
+      "scope": "meta.embedded.line.tsx",
+      "settings": {
+        "foreground": "#F7E4C0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TSX - static html attribute",
       "scope": ["meta.tag.attributes.tsx"],
       "settings": {
         "foreground": "#C7A28C"
@@ -546,6 +614,7 @@
       }
     },
     {
+      "name": "TSX - numbers",
       "scope": "constant.numeric.decimal.tsx",
       "settings": {
         "foreground": "#B18D6A"
@@ -600,6 +669,15 @@
       "settings": {
         "foreground": "#E5BA85",
         "fontStyle": "italic bold"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.tsx",
+        "punctuation.definition.comment.tsx"
+      ],
+      "settings": {
+        "foreground": "#99755acb"
       }
     },
     {
