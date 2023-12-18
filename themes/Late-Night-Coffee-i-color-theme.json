@@ -119,6 +119,7 @@
     "breadcrumb.foreground": "#e0d3c9"
   },
   "tokenColors": [
+    //css start
     {
       "name": "css - colons",
       "scope": "punctuation.separator.key-value",
@@ -162,6 +163,7 @@
         "foreground": "#99755acb"
       }
     },
+    //JS start
     {
       "name": "js - var names",
       "scope": "variable.other.readwrite.js",
@@ -325,6 +327,7 @@
         "fontStyle": "italic"
       }
     },
+    //TS start
     {
       "name": "TS - import",
       "scope": ["keyword.control.import.ts", "keyword.control.from.ts"],
@@ -506,6 +509,7 @@
         "fontStyle": "italic"
       }
     },
+    //TSX  start
     {
       "name": "TSX - export",
       "scope": "keyword.control.export.tsx",
@@ -672,6 +676,7 @@
       }
     },
     {
+      "name": "TSX - comments",
       "scope": [
         "comment.line.double-slash.tsx",
         "punctuation.definition.comment.tsx",
@@ -681,17 +686,10 @@
         "foreground": "#99755acb"
       }
     },
+    //JSON w/ comments start
     {
       "name": "Json with comments- property name",
       "scope": "support.type.property-name.json.comments",
-      "settings": {
-        "foreground": "#b29278",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "Json without comments-- ",
-      "scope": "support.type.property-name.json",
       "settings": {
         "foreground": "#b29278",
         "fontStyle": "italic bold"
@@ -703,6 +701,15 @@
       "settings": {
         "foreground": "#99755acb",
         "fontStyle": "italic"
+      }
+    },
+    //json w/out comments start
+    {
+      "name": "Json without comments-- ",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#b29278",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -768,6 +775,7 @@
         "fontStyle": "italic"
       }
     },
+    //html tags
     {
       "name": "html - tags",
       "scope": [
@@ -820,6 +828,7 @@
         "fontStyle": "italic"
       }
     },
+    //C start
     {
       "name": "C - dbl quote str",
       "scope": "string.quoted.double.c",
@@ -902,6 +911,7 @@
         "fontStyle": "italic"
       }
     },
+    //C# start
     {
       "name": "C# - using",
       "scope": "keyword.other.using.cs",
@@ -1036,6 +1046,7 @@
         "fontStyle": "italic"
       }
     },
+    //MarkDown start
     {
       "name": "Markdown (README) - Headings #",
       "scope": "heading.1.markdown",
@@ -1080,6 +1091,7 @@
         "foreground": "#E0D3C9"
       }
     },
+    //OpenScad start
     {
       "name": "OpenSCAD - functions",
       "scope": "meta.function.scad",
