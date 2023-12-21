@@ -1,5 +1,6 @@
 {
   "name": "Late Night Coffee i",
+  "author": "Chookith",
   "type": "dark",
   "colors": {
     "editor.background": "#4d3a2b",
@@ -119,20 +120,63 @@
     "breadcrumb.foreground": "#e0d3c9"
   },
   "tokenColors": [
-    //css start
     {
-      "name": "css - colons",
-      "scope": "punctuation.separator.key-value",
+      "name": "Defining symbols - Terminating statements - accessor - : = |",
+      "scope": [
+        //css - colon
+        "punctuation.separator.key-value",
+        "punctuation.terminator.rule.css",
+        //JS
+        "punctuation.accessor.js",
+        "punctuation.terminator.statement.js",
+        "keyword.operator.assignment.js",
+        //TS - defining Symbols - | :
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.type.ts",
+        //TSX  - : ;
+        "keyword.operator.type.annotation.tsx",
+        "punctuation.terminator.statement.tsx",
+        //Python
+        "punctuation.section.function.begin.python",
+        "punctuation.section.class.begin.python",
+        "punctuation.separator.colon.python",
+        "punctuation.separator.annotation.python",
+        "punctuation.separator.period.python",
+        "keyword.operator.assignment.python"
+      ],
       "settings": {
         "foreground": "#e4a561"
       }
     },
+    //css start
     {
-      "name": "css - var names",
-      "scope": ["entity.other.attribute-name.class", "entity.name.tag.css"],
+      "name": "Functions",
+      "scope": [
+        //CSS -- let these take function color
+        "entity.other.attribute-name.class",
+        "entity.name.tag.css",
+        //JS
+        "storage.type.function.js",
+        "storage.type.function.arrow.js",
+        //TS
+        "storage.type.function.ts",
+        "storage.type.function.arrow.ts",
+        //TSX
+        "storage.type.function.tsx",
+        "storage.type.function.arrow.tsx",
+        //Python
+        "storage.type.function.python"
+      ],
       "settings": {
-        "foreground": "#b29278",
+        "foreground": "#C09E81",
         "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Var Type",
+      "scope": ["storage.type.js"],
+      "settings": {
+        "foreground": "#FF0000"
       }
     },
     {
@@ -169,13 +213,6 @@
       "scope": "variable.other.readwrite.js",
       "settings": {
         "foreground": "#c6ac9c"
-      }
-    },
-    {
-      "name": "JS - semicolons",
-      "scope": "#b49162",
-      "settings": {
-        "foreground": "#d1ba9c"
       }
     },
     {
@@ -254,7 +291,7 @@
     },
     {
       "name": "js - functions",
-      "scope": ["storage.type.function.js", "storage.type.class.js"],
+      "scope": ["storage.type.class.js"],
       "settings": {
         "foreground": "#d1ba9c",
         "fontStyle": "italic"
@@ -402,17 +439,6 @@
       }
     },
     {
-      "name": "TS - defining symbols - : |",
-      "scope": [
-        "keyword.operator.type.annotation.ts",
-        "keyword.operator.type.ts"
-      ],
-      "settings": {
-        "foreground": "#E4A561",
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "TS - new",
       "scope": "keyword.operator.new.ts",
       "settings": {
@@ -440,14 +466,6 @@
       "settings": {
         "foreground": "#e5ba85",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "TS - function",
-      "scope": ["storage.type.function.ts", "storage.type.function.arrow.ts"],
-      "settings": {
-        "foreground": "#D1BA9C",
-        "fontStyle": "italic"
       }
     },
     {
@@ -547,16 +565,6 @@
       "settings": {
         "foreground": "#B29278",
         "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "TSX - : ;",
-      "scope": [
-        "keyword.operator.type.annotation.tsx",
-        "punctuation.terminator.statement.tsx"
-      ],
-      "settings": {
-        "foreground": "#E4A561"
       }
     },
     {
@@ -730,7 +738,6 @@
     {
       "name": "python - def, if-else, ==",
       "scope": [
-        "storage.type.function.python",
         "storage.type.function.async.python",
         "keyword.control.flow.python",
         "keyword.operator.logical.python",
