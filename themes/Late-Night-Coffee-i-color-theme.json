@@ -170,6 +170,8 @@
         "keyword.operator.assignment.ts",
         "punctuation.accessor.ts",
         "punctuation.separator.comma.ts",
+        "punctuation.terminator.statement.ts",
+        "keyword.operator.assignment.ts",
         //TSX  - : ;
         "keyword.operator.type.annotation.tsx",
         "punctuation.terminator.statement.tsx",
@@ -180,6 +182,7 @@
         "punctuation.separator.annotation.python",
         "punctuation.separator.period.python",
         "keyword.operator.assignment.python",
+        "punctuation.separator.parameters.python",
         //C
         "punctuation.separator.delimiter.c",
         "punctuation.terminator.statement.c",
@@ -583,21 +586,169 @@
         "fontStyle": "italic bold"
       }
     },
-
     {
-      "name": "css - values",
-      "scope": "meta.property-value.css",
+      "name": "Return Continue Break",
+      "scope": [
+        //JS
+        "keyword.control.flow.js",
+        //TS
+        "keyword.control.flow.ts",
+        //TSX
+        "keyword.control.flow.tsx",
+        //C
+        ///considers return as part of if
+        //C++
+        "keyword.control.return.cpp",
+        "keyword.control.break.cpp",
+        "keyword.control.continue.cpp",
+        //C#
+        "keyword.control.flow.return.cs",
+        "keyword.control.flow.break.cs",
+        "keyword.control.flow.continue.cs"
+      ],
       "settings": {
-        "foreground": "#B29278"
+        "foreground": "#ebdfc7",
+        "fontStyle": "italic bold"
       }
     },
     {
-      "name": "css - numbers ",
+      "name": "Numbers",
+      "scope": [
+        //CSS
+        //Needes a fix
+        ///Search : '        //"constant.numeric.css",'
+        //JS
+        "constant.numeric.decimal.js",
+        //TS
+        "constant.numeric.decimal.ts",
+        //TSX
+        "constant.numeric.decimal.tsx",
+        //Python
+        "constant.numeric.dec.python",
+        //C
+        "constant.numeric.decimal.c",
+        //C++
+        "constant.numeric.decimal.cpp",
+        //C#
+        "constant.numeric.decimal.cs"
+      ],
+      "settings": {
+        "foreground": "#b18d6a",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "css - number Fix ",
       "scope": "constant.numeric.css",
       "settings": {
         "foreground": "#f7e4c0"
       }
     },
+    {
+      "name": "CSS - General tag",
+      "scope": [
+        "entity.name.tag.body.css",
+        "entity.name.tag.li.css",
+        "entity.name.tag.a.css",
+        "entity.name.tag.header.css",
+        "entity.name.tag.h1.css",
+        "entity.name.tag.h2.css",
+        "entity.name.tag.h3.css",
+        "entity.name.tag.p.css"
+      ],
+      "settings": {
+        "foreground": "#f9dba3",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "HexDecimals",
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "foreground": "#cfa378",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Arithmatic Symbols",
+      "scope": [
+        //JS
+        "keyword.operator.assignment.compound.js",
+        "keyword.operator.assignment.compound.js",
+        "keyword.operator.arithmetic.js",
+        //TS
+        "keyword.operator.increment.ts",
+        "keyword.operator.decrement.ts",
+        "keyword.operator.assignment.compound.ts",
+        "keyword.operator.arithmetic.ts",
+        //TSX
+        "keyword.operator.increment.tsx",
+        "keyword.operator.decrement.tsx",
+        "keyword.operator.assignment.compound.tsx",
+        "keyword.operator.arithmetic.tsx",
+        //Python
+        "keyword.operator.arithmetic.python",
+        //C
+        "keyword.operator.assignment.compound.c",
+        "keyword.operator.c",
+        "keyword.operator.increment.c",
+        //C++
+        "keyword.operator.increment.cpp",
+        "keyword.operator.decrement.cpp",
+        "keyword.operator.arithmetic.cpp",
+        "keyword.operator.assignment.compound.cpp",
+        //C#
+        "keyword.operator.assignment.compound.cs",
+        "keyword.operator.increment.cs",
+        "keyword.operator.decrement.cs",
+        "keyword.operator.arithmetic.cs"
+      ],
+      "settings": {
+        "foreground": "#dfb614",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Comparitive Symbols",
+      "scope": [
+        //JS
+        "keyword.operator.logical.js",
+        "keyword.operator.relational.js",
+        "keyword.operator.comparison.js",
+        //TS
+        "keyword.operator.comparison.ts",
+        "keyword.operator.relational.ts",
+        "keyword.operator.logical.ts",
+        //TSX
+        "keyword.operator.comparison.tsx",
+        "keyword.operator.relational.tsx",
+        "keyword.operator.logical.tsx",
+        //Python
+        "keyword.operator.comparison.python",
+        "keyword.operator.logical.python",
+        //C
+        "keyword.operator.comparison.c",
+        "keyword.operator.relational.c",
+        "keyword.operator.logical.c",
+        //C++
+        //C#
+        "keyword.operator.comparison.cs",
+        "keyword.operator.relational.cs",
+        "keyword.operator.logical.cs"
+      ],
+      "settings": {
+        "foreground": "#d4a05d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "css - values",
+      "scope": "meta.property-value.css",
+      "settings": {
+        "foreground": "#a27b5b"
+      }
+    },
+
     {
       "scope": "entity.other.attribute-name.pseudo-element.css",
       "settings": {
@@ -614,41 +765,11 @@
     },
     //JS start
     {
-      "name": "js - var names",
-      "scope": "variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#c6ac9c"
-      }
-    },
-    {
-      "name": "JS - numbers",
-      "scope": ["constant.numeric.decimal.js", "constant.language.nan.js"],
-      "settings": {
-        "foreground": "#b18d6a"
-      }
-    },
-    {
-      "name": "JS - function parameters",
-      "scope": ["keyword.control.export.js"],
-      "settings": {
-        "foreground": "#ac8157",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
       "name": "JS - flow control (return, continue)",
-      "scope": ["keyword.control.flow.js", "variable.language.this.js"],
+      "scope": ["variable.language.this.js"],
       "settings": {
         "foreground": "#ebdfc7",
         "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "JS - umm not actually sure (len)",
-      "scope": ["support.variable.property.js", "entity.name.type.class.js"],
-      "settings": {
-        "foreground": "#c3a075",
-        "fontStyle": "bold"
       }
     },
     {
@@ -673,24 +794,6 @@
       "scope": "meta.object-literal.key.js",
       "settings": {
         "foreground": "#B29278",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "js - strings",
-      "scope": [
-        "punctuation.definition.string.end.js",
-        "punctuation.definition.string.begin.js"
-      ],
-      "settings": {
-        "foreground": "#e0bf81"
-      }
-    },
-    {
-      "name": "js - if, else, or...",
-      "scope": ["keyword.control.conditional.js", "keyword.control.loop.js"],
-      "settings": {
-        "foreground": "#ba9d86",
         "fontStyle": "italic bold"
       }
     },
@@ -913,22 +1016,6 @@
       }
     },
     {
-      "name": "TSX - return",
-      "scope": "keyword.control.flow.tsx",
-      "settings": {
-        "foreground": "#EBDFC7",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "TSX - if else for",
-      "scope": ["keyword.control.conditional.tsx", "keyword.control.loop.tsx"],
-      "settings": {
-        "foreground": "#BA9D86",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
       "name": "TSX - html template",
       "scope": [
         "entity.name.tag.tsx",
@@ -982,18 +1069,6 @@
       "scope": "entity.name.function.decorator.python",
       "settings": {
         "foreground": "#dcbe94",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "python - def, if-else, ==",
-      "scope": [
-        "keyword.control.flow.python",
-        "keyword.operator.logical.python",
-        "keyword.operator.comparison.python"
-      ],
-      "settings": {
-        "foreground": "#c09e81",
         "fontStyle": "italic bold"
       }
     },
@@ -1117,19 +1192,6 @@
       }
     },
     {
-      "scope": [
-        "keyword.control.c",
-        "keyword.operator.assignment.compound.c",
-        "keyword.operator.c",
-        "punctuation.terminator.statement.c",
-        "keyword.operator.comparison.c"
-      ],
-      "settings": {
-        "foreground": "#c09e81",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
       "name": "C - comment",
       "scope": ["comment.line.double-slash.c", "comment.block.c"],
       "settings": {
@@ -1158,38 +1220,7 @@
         "fontStyle": "italic"
       }
     },
-    {
-      "name": "C# - conditonal statements",
-      "scope": [
-        "keyword.control.conditional.if.cs",
-        "keyword.other.get.cs",
-        "keyword.control.conditional.else.cs",
-        "keyword.control.loop.foreach.cs"
-      ],
-      "settings": {
-        "foreground": "#94654c",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "C# - flow control (break, continue...)",
-      "scope": [
-        "keyword.control.flow.break.cs",
-        "keyword.control.flow.continue.cs",
-        "keyword.control.flow.return.cs"
-      ],
-      "settings": {
-        "foreground": "#cfb391",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "C# - functions",
-      "scope": "entity.name.function.cs",
-      "settings": {
-        "foreground": "#d2a44b"
-      }
-    },
+
     //comments
     {
       "name": "C# - parameters?? '<>' im guessing ",
@@ -1199,24 +1230,6 @@
       ],
       "settings": {
         "foreground": "#a7957d"
-      }
-    },
-    {
-      "name": "C# - numbers",
-      "scope": "constant.numeric.decimal.cs",
-      "settings": {
-        "foreground": "#b18d6a"
-      }
-    },
-    {
-      "name": "C# - comparason things (==, !=)",
-      "scope": [
-        "keyword.operator.comparison.cs",
-        "keyword.operator.assignment.compound.cs",
-        "keyword.operator.logical.cs"
-      ],
-      "settings": {
-        "foreground": "#ad8f6f"
       }
     },
     {
