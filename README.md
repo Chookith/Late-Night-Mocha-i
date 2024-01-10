@@ -1,15 +1,20 @@
 # Late Night Coffee i
 
-Hello
+## Update notes 1.6.0
 
-please bear with me
+- OK
 
-im still learning
+- there has been a major restructure of this theme
 
-## Update notes 1.5.1
+  - It has come to my attention that none of the colors were in sync across the languages. So I've fixed that
 
-- TypeScript and TSX has been added
-  - to all the devs I'm so sorry its taken so long to come out
+  - There were a few messy mistakes (forgetting to add comments to the theme) this restructuring aims to fix that
+
+- Reactjsx and Tsx are different languages so I've fixed that
+
+  - I honestly thought they were the same. :(
+
+- Ruby has been added to the languages
 
 ## I've finished on the light version
 
@@ -26,13 +31,17 @@ if you want me to make another language give me yell
 ## Languages Made
 
 - C
+- C++
+- C#
 - Html
 - CSS
 - JS
-- Python
 - TS
 - TSX
+- ReactJSX
 - JSON
+- Python
+- Ruby (new)
 
 ## Installing
 
