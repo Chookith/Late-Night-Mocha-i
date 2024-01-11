@@ -41,7 +41,7 @@ if you want me to make another language give me yell
 - ReactJSX
 - JSON
 - Python
-- Ruby (new)
+- Ruby [new]
 
 ## Installing
 
