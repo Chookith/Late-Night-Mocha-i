@@ -512,6 +512,8 @@
       "scope": [
         //TS
         "storage.modifier.async.ts",
+        //ReactJSX
+        "storage.modifier.async.js.jsx",
         //Python
         "storage.type.function.async.python",
         //C
@@ -562,6 +564,7 @@
         //HTML
         //needs fix
         //affects other languages
+        //alt will go in anther
         "meta.attribute.lang.html",
         "meta.attribute.charset.html",
         "meta.attribute.content.html",
@@ -595,6 +598,7 @@
         "string.quoted.double.css",
         //JS
         "string.quoted.double.js",
+        "entity.other.attribute-name.js",
         //TS
         "string.quoted.double.ts",
         //TSX
@@ -611,7 +615,8 @@
         //C#
         "string.quoted.double.cs",
         //SQL
-        "keyword.other.sql"
+        "keyword.other.sql",
+        "string.quoted.double.sql"
       ],
       "settings": {
         "foreground": "#C6AC9C",
@@ -637,7 +642,9 @@
         //C++
         "storage.type.namespace.directive.cpp",
         //C#
-        "string.quoted.single.cs"
+        "string.quoted.single.cs",
+        //SQL
+        "string.quoted.single.sql"
       ],
       "settings": {
         "foreground": "#C6AC9C",
@@ -657,13 +664,15 @@
         ///Note this is deprecated
         "invalid.deprecated.backtick.python",
         //Ruby
-        "string.interpolated.ruby"
+        "string.interpolated.ruby",
         //C
         ///Unrecognised by C
         //C++
         ///Unrecognised by C++
         //C#
         //for whatever reason C# doesn't pick it up
+        //SQL
+        "string.quoted.other.backtick.sql"
       ],
       "settings": {
         "foreground": "#c58f1c",
@@ -964,6 +973,7 @@
         "comment.block.ts",
         //TSX
         "punctuation.definition.comment.tsx",
+        "comment.line.double-slash.tsx",
         "comment.block.tsx",
         //JSON
         "comment.line.double-slash.js",
@@ -989,6 +999,56 @@
       "settings": {
         "foreground": "#99755acb",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML - tags",
+      "scope": [
+        //HTML
+        "entity.name.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "meta.tag.metadata.style.end.html",
+        "punctuation.definition.tag.end.html",
+        //JS
+        "punctuation.definition.tag.begin.js",
+        "entity.name.tag.js",
+        "punctuation.definition.tag.end.js",
+        //TS
+        //Angular at least takes after html
+        //TSX
+        "entity.name.tag.tsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        //ReactJSX
+        "punctuation.definition.tag.begin.js.jsx",
+        "entity.name.tag.js.jsx",
+        "punctuation.definition.tag.end.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#e5ba85",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "HTML <h1>This text</h1>",
+      "scope": [
+        "text.html.derivative",
+        "text.html",
+        "meta.jsx.children.tsx",
+        "meta.jsx.children.js.jsx",
+        "meta.jsx.children.js"
+      ],
+      "settings": {
+        "foreground": "#F7E4C0",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "html - class attribute (Tailwind help)",
+      "scope": "meta.attribute.class.html",
+      "settings": {
+        "foreground": "#c7a28c",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -1032,14 +1092,14 @@
         "fontStyle": "italic bold"
       }
     },
-    {
-      "name": "",
-      "scope": "variable.other.object.property.js",
-      "settings": {
-        "foreground": "#e2cdb1",
-        "fontStyle": "italic bold"
-      }
-    },
+    //{
+    //  "name": "",
+    //  "scope": "variable.other.object.property.js",
+    //  "settings": {
+    //    "foreground": "#e2cdb1",
+    //    "fontStyle": "italic bold"
+    //  }
+    //},
     //TS
 
     {
@@ -1151,9 +1211,6 @@
       "name": "HTML Tags",
       "scope": [
         //TSX
-        "entity.name.tag.tsx",
-        "punctuation.definition.tag.begin.tsx",
-        "punctuation.definition.tag.end.tsx"
       ],
       "settings": {
         "foreground": "#E5BA85",
@@ -1188,45 +1245,7 @@
       }
     },
     //html tags
-    {
-      "name": "html - tags",
-      "scope": [
-        //HTML
-        "entity.name.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "meta.tag.metadata.style.end.html",
-        "punctuation.definition.tag.end.html",
-        //ReactJSX
-        "punctuation.definition.tag.begin.js.jsx",
-        "entity.name.tag.js.jsx",
-        "punctuation.definition.tag.end.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#e5ba85",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "HTML <h1>This text</h1>",
-      "scope": [
-        "text.html.derivative",
-        "text.html",
-        "meta.jsx.children.tsx",
-        "meta.jsx.children.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#F7E4C0",
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "html - class attribute (Tailwind help)",
-      "scope": "meta.attribute.class.html",
-      "settings": {
-        "foreground": "#c7a28c",
-        "fontStyle": "italic bold"
-      }
-    },
+
     //C start
     {
       "name": "C - <whats being included>",
@@ -1249,7 +1268,8 @@
       "name": "C# - parameters?? '<>' im guessing ",
       "scope": [
         "punctuation.definition.typeparameters.begin.cs",
-        "punctuation.definition.typeparameters.end.cs"
+        "punctuation.definition.typeparameters.end.cs",
+        "string.quoted.other.lt-gt.include.cpp"
       ],
       "settings": {
         "foreground": "#eed8bb",
