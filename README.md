@@ -16,10 +16,6 @@
 
 - Ruby has been added to the languages
 
-## I've finished on the light version
-
-Morning Coffee i is here!... finally
-
 ## i look like this
 
 ![Mocha Code Example](https://raw.githubusercontent.com/Chookith/Late-Night-Mocha-i/main/images/updated%20late%20nioght%20mocha%20theme.png)
@@ -41,7 +37,7 @@ if you want me to make another language give me yell
 - ReactJSX
 - JSON
 - Python
-- Ruby [new]
+- Ruby
 
 ## Installing
 
@@ -50,6 +46,12 @@ if you want me to make another language give me yell
 1. Click Install
 1. You may need to reload the window
 1. Manage Cog (little cog thingy on the bottom) > Select Colour Theme > Late Night Mocha i
+
+### I have a Light Version too
+
+Morning Coffee i
+
+> https://marketplace.visualstudio.com/items?itemName=Chookith.coffee-theme-light&ssr=false#overview
 
 ### give us a yell if you have any issues with it
 
