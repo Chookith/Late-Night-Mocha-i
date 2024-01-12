@@ -1044,6 +1044,13 @@
       }
     },
     {
+      "scope": "text.html.markdown",
+      "settings": {
+        "foreground": "#e0d3c9",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "html - class attribute (Tailwind help)",
       "scope": "meta.attribute.class.html",
       "settings": {
