@@ -640,7 +640,7 @@
         //C
         "string.quoted.single.c",
         //C++
-        "storage.type.namespace.directive.cpp",
+        "string.quoted.double.cpp",
         //C#
         "string.quoted.single.cs",
         //SQL
@@ -828,7 +828,6 @@
       "scope": [
         //JS
         "keyword.operator.assignment.compound.js",
-        "keyword.operator.assignment.compound.js",
         "keyword.operator.arithmetic.js",
         //TS
         "keyword.operator.increment.ts",
@@ -941,12 +940,13 @@
         //CSS
         //key names look good already in CSS
         //"support.type.property-name.css",
-
+        "meta.object-literal.key.js",
         //TS
         "meta.object-literal.key.ts",
         "variable.object.property.ts",
         //TSX
-        "meta.definition.variable.ts",
+        "meta.object-literal.key.tsx",
+        "meta.definition.variable.tsx",
         //JSON
         "support.type.property-name.json",
         //Ruby
@@ -1085,7 +1085,7 @@
 
     {
       "name": "JS - object keys ",
-      "scope": "meta.object-literal.key.js",
+      "scope": "",
       "settings": {
         "foreground": "#B29278",
         "fontStyle": "italic bold"
@@ -1134,16 +1134,9 @@
         "fontStyle": ""
       }
     },
-    {
-      "scope": ["punctuation.definition.block.ts"],
-      "settings": {
-        "foreground": "#e5ba85",
-        "fontStyle": "bold"
-      }
-    },
 
     {
-      "name": "TS - {{   }}",
+      "name": "TS - {{ static brackets }}",
       "scope": ["punctuation.definition.block.ts"],
       "settings": {
         "foreground": "#e5ba85",
@@ -1212,16 +1205,6 @@
       "settings": {
         "foreground": "#C09365"
         //"fontStyle": "italic bols"
-      }
-    },
-    {
-      "name": "HTML Tags",
-      "scope": [
-        //TSX
-      ],
-      "settings": {
-        "foreground": "#E5BA85",
-        "fontStyle": "italic bold"
       }
     },
     {
